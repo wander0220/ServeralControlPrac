@@ -16,5 +16,16 @@ namespace ServeralControlPrac
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //System.Diagnostics.Process.Start("https://google.co.kr/");
+            System.Diagnostics.Process.Start("notepad");
+        }
     }
 }
